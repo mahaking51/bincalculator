@@ -1,0 +1,50 @@
+
+body{
+  background-color: #ef8172;
+}
+.btn{
+  background-color: black;
+  color:red;
+
+  height: 36px;
+  font-size: 18px;
+  width:118.79px;
+  margin:0;
+  border-left: 0;
+  border-right: 0;
+
+}
+.btin{
+  background-color: lightgreen;
+  color:brown;
+
+  height: 36px;
+  font-size: 18px;
+  width:118.79px;
+  margin:0;
+  border-left: 0;
+  border-right: 0;
+}
+.btout{
+  background-color: darkgreen;
+  color:white;
+
+  height: 36px;
+  font-size: 18px;
+  width:118.79px;
+  margin:0;
+  border-left: 0;
+  border-right: 0;
+}
+.screen{
+  width:486.12px;
+  background-color: lightgray;
+  height: 48px;
+  font-size: 20px;
+  border-style: solid;
+  display: inline-block;
+}
+.container{
+  padding: 50px;
+  text-align: center;
+}
