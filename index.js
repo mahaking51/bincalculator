@@ -96,6 +96,8 @@ function answer(decNumber1,decNumber2){
     case '/':
       ans=decNumber1/decNumber2;
       break;
+    default:
+    ans =decNumber1+decNumber2;
   }
   return ans;
 }
@@ -109,6 +111,7 @@ $('.solution').on('click',function(){
   }
   $('.screen').text(sol);
   var tex=$('.screen').text();
+  op=false;
   enteredNumbers1=[];
   enteredNumbers2=[];
   for (i=0;i<tex.length;i++){
